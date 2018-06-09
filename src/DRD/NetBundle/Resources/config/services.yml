@@ -1,0 +1,12 @@
+# Services
+services:
+  # Guzzle
+    drd.net.guzzle:
+        class: GuzzleHttp\Client
+
+  # Protocol
+    drd.net.protocol.json:
+        class: DRD\NetBundle\Protocol\Client
+        arguments:
+            - '@drd.net.guzzle'
+            - '@drd.coder.decoder.json'
