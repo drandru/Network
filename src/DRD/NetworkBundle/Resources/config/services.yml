@@ -1,0 +1,5 @@
+# Services
+services:
+  # Guzzle
+    drd.net.guzzle:
+        class: GuzzleHttp\Client
