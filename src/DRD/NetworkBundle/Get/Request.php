@@ -14,6 +14,10 @@ use GuzzleHttp\ClientInterface;
 use Psr\Http\Message\ResponseInterface as GuzzleResponseInterface;
 use Psr\Http\Message\StreamInterface;
 
+/**
+ * Class Request
+ * @package DRD\NetworkBundle\Get
+ */
 class Request implements RequestInterface
 {
     /**
@@ -93,7 +97,6 @@ class Request implements RequestInterface
     {
         return $this->extractor->getParams($data);
     }
-
 
     /**
      * @param GuzzleResponseInterface $response

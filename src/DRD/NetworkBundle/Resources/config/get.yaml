@@ -1,12 +1,12 @@
 services:
   # Protocol
-    drd.net.get.json:
-        class: DRD\NetworkBundle\Get\Request
-        arguments:
-            - '@drd.net.guzzle'
-            - '@drd.net.extractor.get'
-            - '@drd.coder.decoder.json'
+  drd.net.get.json:
+    class: DRD\NetworkBundle\Get\Request
+    arguments:
+      - '@drd.net.guzzle'
+      - '@drd.net.extractor.get'
+      - '@drd.coder.decoder.json'
 
   # Extractor
-    drd.net.extractor.get:
-        class: DRD\NetworkBundle\Extractor\Get
+  drd.net.extractor.get:
+    class: DRD\NetworkBundle\Extractor\Get

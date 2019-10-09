@@ -5,6 +5,10 @@ namespace DRD\NetworkBundle\Extractor;
 use DRD\NetworkBundle\DTO\DTOInterface;
 use DRD\NetworkBundle\DTO\Get as GetDTO;
 
+/**
+ * Class Get
+ * @package DRD\NetworkBundle\Extractor
+ */
 class Get implements ParamsExtractorInterface
 {
     /**

@@ -4,6 +4,10 @@ namespace DRD\NetworkBundle\Response\Transformer;
 
 use DRD\NetworkBundle\Response\ResponseInterface;
 
+/**
+ * Interface ResponseTransformerInterface
+ * @package DRD\NetworkBundle\Response\Transformer
+ */
 interface ResponseTransformerInterface
 {
     /**

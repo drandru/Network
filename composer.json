@@ -1,16 +1,17 @@
 {
   "name": "drandru/network",
-  "type": "symfony-bundle",
+  "type": "library",
+  "description": "network for symfony projects",
   "autoload": {
-    "psr-4": { "": "src/" }
+    "psr-4": {
+      "DRD\\NetworkBundle\\": "src/DRD/NetworkBundle"
+    }
   },
   "require": {
-    "php": ">=7.1",
+    "php": ">=7.0",
     "guzzlehttp/guzzle": "^6.3",
-    "sensio/framework-extra-bundle": "^5.1",
-    "symfony/monolog-bundle": "^3.1",
-    "symfony/framework-bundle": "^4.0",
-    "drandru/general": "^4.0.2"
+    "symfony/framework-bundle": "4.3.*",
+    "drandru/general": "4.3.*"
   },
   "require-dev": {
     "symfony/phpunit-bridge": "^3.0",

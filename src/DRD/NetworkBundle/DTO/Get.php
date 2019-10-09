@@ -2,6 +2,10 @@
 
 namespace DRD\NetworkBundle\DTO;
 
+/**
+ * Class Get
+ * @package DRD\NetworkBundle\DTO
+ */
 class Get implements DTOInterface
 {
     /**
@@ -44,7 +48,7 @@ class Get implements DTOInterface
     }
 
     /**
-     * @return \string[]
+     * @return string[]
      */
     public function getArguments(): array
     {
