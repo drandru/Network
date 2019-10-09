@@ -1,0 +1,26 @@
+{
+  "name": "drandru/network",
+  "type": "library",
+  "description": "network for symfony projects",
+  "autoload": {
+    "psr-4": {
+      "DRD\\NetworkBundle\\": "src/DRD/NetworkBundle"
+    }
+  },
+  "require": {
+    "php": ">=7.0",
+    "guzzlehttp/guzzle": "^6.3",
+    "symfony/framework-bundle": "4.3.*",
+    "drandru/general": "4.3.*"
+  },
+  "require-dev": {
+    "symfony/phpunit-bridge": "^3.0",
+    "phpunit/phpunit": "^5.0"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:drandru/general.git"
+    }
+  ]
+}
